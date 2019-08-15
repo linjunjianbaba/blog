@@ -1,0 +1,159 @@
+baseURL = "http://zb.77sec.net/"
+languageCode = "en-us"
+title = "ZB的博客"
+theme = "beautifulhugo"
+#theme = "Sahat"
+canonifyURLs = true
+DefaultContentLanguage = "zh"
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+pygmentsStyle = "dracula"
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClassic = false
+paginate = 15
+#googleAnalytics = "UA-69668147-3"
+autoFigure = true
+
+[params]
+  subtitle = "专注Docker kubernetes DevOps ServiceMesh Glang Linux等"
+  keywords = "专注Docker kubernetes DevOps ServiceMesh Glang Linux等"
+  author = "ZB"
+  logo = "https://image.77s.vip/favicon.png"
+  favicon = "https://image.77s.vip/favicon.ico"
+  rss = true
+  reward = true
+#  algolia = "8804ac109158bb3bb60d74ce98fa332f" # API key
+  useWebfont = true
+  customCSSAssets = []
+  customJSAssets = []
+  defaultImg = "https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/photo-1557380664-dd666ff4e559.jpeg"
+
+#[params.adsense]
+#  client = "ca-pub-5376999672787220"
+#  inArticleSlot = "5684687044"
+#  textSlot = "9165834656"
+
+[params.gitcomment]
+  owner = "linjunjianbaba"
+  repo = "api"
+  clientId = "f18202d51f7cfbd3e1c1"
+  clientSecret = "ee3e264145f1d64a14e4bd1ccbb2a4edcb197895"
+
+[[params.bigimg]]
+  src = "img/devops/k001.jpg"
+  desc = ""
+  position = "center top"
+
+
+[[menu.main]]
+    name = "首页"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Docker"
+    url = "tags/docker"
+    weight = 2
+[[menu.main]]
+    name = "Kubernetes"
+    url = "tags/kubernetes"
+    weight = 3
+[[menu.main]]
+    name = "DevOps"
+    url = "tags/devops"
+    weight = 4
+[[menu.main]]
+    name = "励志人生"
+    url = "tags/motivational"
+    weight = 4
+[[menu.main]]
+    name = "关于"
+    url = "auto"
+    weight = 6
+
+#[[menu.main]]
+#    name = "首页"
+#    url = "/"
+#    weight = 1
+#
+#[[menu.main]]
+#    identifier = "course"
+#    name = "课程"
+#    weight = 2
+#    url = "https://youdianzhishi.com/?utm_source=blog&utm_campaign=referral&utm_medium=topmenu"
+#
+#[[menu.main]]
+#    identifier = "categories"
+#    name = "文章分类"
+#    weight = 3
+#
+#[[menu.main]]
+#    parent = "categories"
+#    name = "Archive"
+#    url = "archives"
+#    weight = 1
+#
+#[[menu.main]]
+#    parent = "categories"
+#    name = "tags"
+#    url = "tags"
+#    weight = 1
+#
+#[[menu.main]]
+#    parent = "categories"
+#    name = "kubernetes"
+#    url = "tags/kubernetes"
+#    weight = 2
+#
+#[[menu.main]]
+#    parent = "categories"
+#    name = "python"
+#    url = "tags/python"
+#    weight = 3
+#
+#[[menu.main]]
+#    parent = "categories"
+#    name = "django"
+#    url = "tags/django"
+#    weight = 4
+#
+#[[menu.main]]
+#    parent = "categories"
+#    name = "devops"
+#    url = "tags/ops"
+#    weight = 5
+#
+#[[menu.main]]
+#    identifier = "book"
+#    name = "书籍"
+#    weight = 4
+#
+#
+#[[menu.main]]
+#    parent = "book"
+#    name = "k8s进阶手册"
+#    url = "/k8s-book/"
+#    weight = 1
+#
+#[[menu.main]]
+#    parent = "book"
+#    name = "一起学istio"
+#    url = "/istio-book/"
+#    weight = 2
+#
+#[[menu.main]]
+#    parent = "book"
+#    name = "Python微服务"
+#    url = "/tdd-book/"
+#    weight = 3
+#
+#[[menu.main]]
+#    parent = "book"
+#    name = "Markdown微信"
+#    url = "https://md.qikqiak.com/"
+#    weight = 4
+#
+#[[menu.main]]
+#    name = "关于"
+#    url = "page/about/"
+#    weight = 5
